@@ -1,0 +1,9 @@
+جست و جو :
+
+لیست آگهی هایی که داخل عنوان آنها این کلمه وجود دارد:
+SELECT * FROM `agahi`
+WHERE `title` LIKE "%Mobile%";
+
+لیست آگهی هایی که داخل توضیحات آنها این کلمه وجود دارد :
+SELECT * FROM `agahi`
+WHERE `description` LIKE "%Offer%";
