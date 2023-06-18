@@ -1,14 +1,14 @@
-افزودن محصول جدید :
+افزودن آگهی جدید :
 
-INSERT INTO Products (ID,Name,Code,Price,Entity)
-VALUES ("1","T-Shirt","158","200000","8")
+INSERT INTO agahi (id,title,phone,gheymat,description,group,city,code)
+VALUES ("1","Mobile Samsung","09920266796","18000000","Stock Phone,Mobile,Isfahan,?")
 
-حذف (نرم) محصول :
+حذف (نرم) آگهی :
 
-UPDATE products
+UPDATE agahi
 SET Status = 'DeActive'
 WHERE Id = 1
 
-گرفتن لیست همه محصولات :
+گرفتن لیست همه آگهی ها :
 
-SELECT * Products
+SELECT * agahi
