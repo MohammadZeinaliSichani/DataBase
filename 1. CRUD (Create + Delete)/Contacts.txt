@@ -1,6 +1,6 @@
 درج پیام جدید :
 INSERT INTO contact_us (Name,LastName,Phone,Message)
-VALUES ("Mohammad","Zeinali","09920266796","Hello World. This is test for my database")
+VALUES ("Mohammad","Zeinali","09920266796","Hello World!. This is test for my database")
 
 
 حذف پیام :
