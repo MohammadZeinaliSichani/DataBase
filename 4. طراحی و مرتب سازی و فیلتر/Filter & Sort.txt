@@ -2,18 +2,18 @@
 
 Filter :
 
-نمایش آگهی های منتشر شده در 15 ام ماه جاری :
-SELECT * FROM `agahi` WHERE `release_date` > 15
+نمایش آگهی های منتشر شده در شهر اصفهان :
+SELECT * FROM `agahi` WHERE `city` = Isfahan
 
-نمایش آگهی هایی که بیش از 3 عکس دارند :
-SELECT * FROM `agahi` WHERE `pictures` > 3
+نمایش آگهی هایی که قیمت آن ها بیشتر از 10000 تومان است :
+SELECT * FROM `agahi` WHERE `gheymat` > 10000
 
 Sort :
 
-نمایش آگهی ها به ترتیب حروف الفبا استان :
+نمایش آگهی ها به ترتیب حروف الفبا :
 SELECT * FROM `agahi`
-ORDER BY `ostan-title`;
+ORDER BY `title`;
 
 نمایش آگهی ها به ترتیب قیمت - از زیاد به کم:
 SELECT * FROM `agahi`
-ORDER BY `price` DESC;
+ORDER BY `gheymat` DESC;
