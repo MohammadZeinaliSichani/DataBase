@@ -1,0 +1,19 @@
+چند نمونه کد فیلتر و مرتب سازی روی دیتابیس شیپور :
+
+Filter :
+
+نمایش آگهی های منتشر شده در 15 ام ماه جاری :
+SELECT * FROM `agahi` WHERE `release_date` > 15
+
+نمایش آگهی هایی که بیش از 3 عکس دارند :
+SELECT * FROM `agahi` WHERE `pictures` > 3
+
+Sort :
+
+نمایش آگهی ها به ترتیب حروف الفبا استان :
+SELECT * FROM `agahi`
+ORDER BY `ostan-title`;
+
+نمایش آگهی ها به ترتیب قیمت - از زیاد به کم:
+SELECT * FROM `agahi`
+ORDER BY `price` DESC;
