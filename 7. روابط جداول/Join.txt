@@ -1,0 +1,9 @@
+با توجه به تفاوت پروژه پایگاه داده من برای تحویل تکلیف الحاق
+
+لیست علاقه مندی های گروه "موبایل" را همراه با نام و نام خانوادگی کاربر و عنوان آگهی نشان دهید 
+
+SELECT CONCAT(users.fname,' ',users.lname),agahi.title, favorite.* 
+FROM `favorite`
+INNER JOIN agahi ON favorite.agahi_code = agahi.id
+INNER JOIN users ON favorite.user_code = users.id
+WHERE agahi.group LIKE "%موبایل%"
