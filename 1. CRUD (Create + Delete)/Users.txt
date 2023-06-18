@@ -1,10 +1,10 @@
 ثبت نام کاربر جدید :
 
-INSERT INTO user (Name,LastName,Pass)
-VALUES ("Mohammad","Zeinali","Mz12345$")
+INSERT INTO users (id,fName,lname,phone,ostan,city,email,password,state)
+VALUES ("1","Mohammad","Zeinali","09920266796","Isfahan","Isfahan","zeinalimohammad000@gmail.com","Mz12345$","0")
 
 
 حذف کاربر :
 
-DELETE FROM user
+DELETE FROM users
 WHERE Id = 1
