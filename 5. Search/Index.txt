@@ -1,0 +1,7 @@
+Index :
+
+ایندکس کردن اسم آگهی ها
+برای جست و جوی سریع تر در لیست آگهی ها
+
+CREATE INDEX idx
+ON Sheypoor.agahi (`title`);
