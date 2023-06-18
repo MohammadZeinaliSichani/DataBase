@@ -1,7 +1,7 @@
 افزودن محصول جدید :
 
 INSERT INTO Products (ID,Name,Code,Price,Entity)
-VALUES ("1","T-Shirt","158","200000","5")
+VALUES ("1","T-Shirt","158","200000","8")
 
 حذف (نرم) محصول :
 
